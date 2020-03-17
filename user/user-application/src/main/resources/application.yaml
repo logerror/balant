@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: user-application
+
+server:
+  port: 18082
+  servlet:
+    context-path: /user-api/
