@@ -9,6 +9,7 @@ spring:
 dubbo:
   application:
     name: octopus-service
+    logger: slf4j
   registry:
     address: zookeeper://127.0.0.1:2181
   protocol:

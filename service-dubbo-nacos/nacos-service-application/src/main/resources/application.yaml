@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: nacos-service-application
+
+server:
+  port: 18088
+  servlet:
+    context-path: /nacos-api/

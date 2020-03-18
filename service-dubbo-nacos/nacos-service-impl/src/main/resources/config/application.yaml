@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/mall_user?useSSL=false&useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+
+dubbo:
+  application:
+    name: nacos-service
+  registry:
+    address: nacos://192.168.126.1:8848
+  protocol:
+    port: -1
+    name: dubbo
+  scan:
+    base-packages: com.sourcecode.balant.nacosservice.biz.service
+  provider:
+    filter: -exception
+    NacosMessageService:
+      version: 1.0.0
+
+
+
