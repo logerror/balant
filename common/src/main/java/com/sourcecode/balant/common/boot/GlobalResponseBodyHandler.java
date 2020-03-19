@@ -1,4 +1,4 @@
-package com.sourcecode.balant.common.handler;
+package com.sourcecode.balant.common.boot;
 
 import com.sourcecode.balant.common.util.BalantUtil;
 import com.sourcecode.balant.common.util.CommonResult;

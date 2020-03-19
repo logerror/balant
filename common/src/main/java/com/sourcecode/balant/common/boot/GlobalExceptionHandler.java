@@ -1,4 +1,4 @@
-package com.sourcecode.balant.common.handler;
+package com.sourcecode.balant.common.boot;
 
 
 import com.sourcecode.balant.common.constants.SysErrorCodeEnum;

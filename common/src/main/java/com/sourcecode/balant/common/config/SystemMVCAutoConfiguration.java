@@ -1,8 +1,8 @@
 package com.sourcecode.balant.common.config;
 
 
-import com.sourcecode.balant.common.handler.GlobalExceptionHandler;
-import com.sourcecode.balant.common.handler.GlobalResponseBodyHandler;
+import com.sourcecode.balant.common.boot.GlobalExceptionHandler;
+import com.sourcecode.balant.common.boot.GlobalResponseBodyHandler;
 import com.sourcecode.balant.common.filter.CorsFilter;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
