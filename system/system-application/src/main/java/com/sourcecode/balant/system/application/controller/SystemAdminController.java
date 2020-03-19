@@ -19,13 +19,7 @@ public class SystemAdminController {
 
     @GetMapping("/getusername")
     public CommonResult<String> test(HttpServletRequest request, HttpServletResponse response){
-
-        try{
-            String name = systemAdminService.getUserName();
-            return CommonResult.success(name);
-        }catch(Exception e){
-            return CommonResult.error(-1, e.getMessage());
-        }
-
+        String name = systemAdminService.getUserName();
+        return CommonResult.success(name);
     }
 }
